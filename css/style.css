@@ -12,3 +12,9 @@
   color: #fff;
   /*padding: 12% 0 8%;*/
 }
+
+.testimonial-block {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
+}
