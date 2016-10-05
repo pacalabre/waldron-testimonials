@@ -1,7 +1,6 @@
-/*.nav {
-  height:100px;
-  background-color: blue;
-}*/
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
 
 #element2 {
   opacity: 0;
@@ -55,6 +54,11 @@
 
 .section-title {
   text-align: center;
+  padding: 40px 0px;
+}
+
+.section-more-testimonials {
+  background-color: #f1f3f4;
 }
 
 .testimonial-block {
