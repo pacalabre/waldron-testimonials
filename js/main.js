@@ -27,6 +27,69 @@ var scene2 = new ScrollMagic.Scene({
 .addIndicators({name:'animate 2'})
 .addTo(controller);
 
+var scene3 = new ScrollMagic.Scene({
+  triggerElement: "#trigger3"
+})
+.setTween("#element3",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 3'})
+.addTo(controller);
+
+var scene4 = new ScrollMagic.Scene({
+  triggerElement: "#trigger4"
+})
+.setTween("#element4",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 2'})
+.addTo(controller);
+
+var scene5 = new ScrollMagic.Scene({
+  triggerElement: "#trigger5"
+})
+.setTween("#element5",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 2'})
+.addTo(controller);
+
+var scene6 = new ScrollMagic.Scene({
+  triggerElement: "#trigger6"
+})
+.setTween("#element6",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 2'})
+.addTo(controller);
+
+var scene7 = new ScrollMagic.Scene({
+  triggerElement: "#trigger7"
+})
+.setTween("#element7",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 2'})
+.addTo(controller);
+
+var scene8 = new ScrollMagic.Scene({
+  triggerElement: "#trigger8"
+})
+.setTween("#element8",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 2'})
+.addTo(controller);
+
+var scene9 = new ScrollMagic.Scene({
+  triggerElement: "#trigger9"
+})
+.setTween("#element9",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 2'})
+.addTo(controller);
+
+var scene10 = new ScrollMagic.Scene({
+  triggerElement: "#trigger10"
+})
+.setTween("#element10",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 2'})
+.addTo(controller);
+
+var scene11 = new ScrollMagic.Scene({
+  triggerElement: "#trigger11"
+})
+.setTween("#element11",1, { scale: 1.05, opacity: 1})
+.addIndicators({name:'animate 2'})
+.addTo(controller);
+
 //Filter Plugin
 
 $('.filter a').click(function(e) {
