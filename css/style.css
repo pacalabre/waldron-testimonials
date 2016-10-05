@@ -3,6 +3,10 @@
   background-color: blue;
 }*/
 
+#element2 {
+  opacity: 0;
+}
+
 .section-carousel {
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -11,6 +15,10 @@
   background-color: #1a1b1b;
   color: #fff;
   /*padding: 12% 0 8%;*/
+}
+
+.section-title {
+  text-align: center;
 }
 
 .testimonial-block {
@@ -32,5 +40,37 @@
   padding-top: 50px;
 }
 
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 
