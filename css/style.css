@@ -1,6 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
+  color: #003b40;
+  font-family: Whitney A,Whitney B,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
+
 
 #element2 {
   opacity: 0;
@@ -55,6 +58,9 @@ h1, h2, h3, h4, h5, h6 {
 .section-title {
   text-align: center;
   padding: 40px 0px;
+  font-family: Sectra,Georgia,Cambria,Times New Roman,Times,serif;
+  font-size: 3rem;
+  color: #003b40;
 }
 
 .section-more-testimonials {
@@ -75,6 +81,10 @@ h1, h2, h3, h4, h5, h6 {
 .company-writeup {
   margin: 0px;
   padding-top: 5px;
+}
+
+.company-writeup-text {
+  font-style: italic;
 }
 
 .company-testimonial-border {
