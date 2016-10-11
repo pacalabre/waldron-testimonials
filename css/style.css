@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: auto;
   margin-right: auto;
   padding: 3em;
+  transition: 1s;
 }
 
 .testimonial-block:hover {
