@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 3em;
 }
 
+.testimonial-block:hover {
+  background-color: lightgray;
+}
+
 .testimonial-block-text {
   text-align: center;
 }
