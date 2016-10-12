@@ -4,6 +4,9 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: Whitney A,Whitney B,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 
+button {text-decoration: none;}
+
+
 
 #element2 {
   opacity: 0;
@@ -94,6 +97,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .company-testimonial-border {
   padding-top: 50px;
+}
+
+.video {
+  margin: 10px auto;
+  display: block;
 }
 
 
