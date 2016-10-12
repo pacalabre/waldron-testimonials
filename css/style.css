@@ -49,11 +49,12 @@ button {text-decoration: none;}
 }
 
 .section-carousel {
+  margin-top: 70px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   text-align: center;
-  background-color: #1a1b1b;
+  background-color: transparent;
   color: #fff;
   /*padding: 12% 0 8%;*/
 }
