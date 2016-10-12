@@ -59,6 +59,14 @@ button {text-decoration: none;}
   /*padding: 12% 0 8%;*/
 }
 
+.desktop-carousel {
+  display: none;
+}
+
+.mobile-carousel {
+  margin-top: 50px;
+}
+
 .section-title {
   text-align: center;
   padding: 40px 0px;
@@ -146,4 +154,15 @@ a:hover {
   border: 0;
   }
 
+
+@media (min-width: 992px) {
+  .desktop-carousel {
+    display: block;
+  }
+
+  .mobile-carousel {
+    display: none;
+
+  }
+}
 
