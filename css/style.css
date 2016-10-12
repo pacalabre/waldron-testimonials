@@ -104,6 +104,10 @@ button {text-decoration: none;}
   display: block;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 
 .rslides {
   position: relative;
