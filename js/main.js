@@ -17,14 +17,14 @@ var scene1 = new ScrollMagic.Scene({
   triggerElement: "#trigger1"
 })
 .setTween("#element1",0.5, { scale: 1.05})
-.addIndicators({name:'animate 1'})
+// .addIndicators({name:'animate 1'})
 .addTo(controller);
 
 var scene2 = new ScrollMagic.Scene({
   triggerElement: "#trigger2"
 })
 .setTween("#element2",1, { scale: 1.05, opacity: 1})
-.addIndicators({name:'animate 2'})
+// .addIndicators({name:'animate 2'})
 .addTo(controller);
 
 // var scene3 = new ScrollMagic.Scene({
