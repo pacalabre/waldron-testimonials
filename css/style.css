@@ -116,10 +116,6 @@ button {text-decoration: none;}
   display: block;
 }
 
-.modal {
-  top: 120px;
-}
-
 a:hover {
   text-decoration: none;
 }
