@@ -109,7 +109,8 @@ button {text-decoration: none;}
 }
 
 .video {
-  margin: 10px auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: block;
 }
 
@@ -120,7 +121,6 @@ button {text-decoration: none;}
 a:hover {
   text-decoration: none;
 }
-
 
 .rslides {
   position: relative;
