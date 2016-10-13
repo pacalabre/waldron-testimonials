@@ -84,6 +84,14 @@ button {text-decoration: none;}
   color: #003b40;
 }
 
+.close {
+  margin: 4px 40px;
+}
+
+.close-x {
+  font-size: 35px;
+}
+
 .section-more-testimonials {
   background-color: #fff;
   padding-bottom: 100px;
