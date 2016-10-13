@@ -1,58 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+
+/* Base Font Styles */
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
   color: #003b40;
   font-family: Whitney A,Whitney B,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
 }
 
-button {text-decoration: none;}
 
+/* Unstyle Bootstrap Defaults */
 
-
-#element2 {
-  opacity: 0;
+button {
+  text-decoration: none;
 }
 
-#element3 {
-  opacity: 0;
-}
 
-#element4 {
-  opacity: 0;
-}
-
-#element5 {
-  opacity: 0;
-}
-
-#element6 {
-  opacity: 0;
-}
-
-#element7 {
-  opacity: 0;
-}
-
-#element8 {
-  opacity: 0;
-}
-
-#element9 {
-  opacity: 0;
-}
-
-#element10 {
-  opacity: 0;
-}
-
-#element11 {
-  opacity: 0;
-}
+/* Light Grey Background Color of the First half of the Site */
 
 .site-top {
   background-color: #f1f3f4;
 }
+
+
+/* Carousel Styles */
 
 .section-carousel {
   padding-top: 70px;
@@ -62,7 +34,6 @@ button {text-decoration: none;}
   text-align: center;
   background-color: transparent;
   color: #fff;
-  /*padding: 12% 0 8%;*/
 }
 
 .desktop-carousel {
@@ -72,6 +43,9 @@ button {text-decoration: none;}
 .mobile-carousel {
   margin-top: 50px;
 }
+
+
+/* Video Testimonial and Modal Styles */
 
 .section-video-testimonials {
   margin: 20px 0px;
@@ -92,6 +66,32 @@ button {text-decoration: none;}
   font-size: 35px;
 }
 
+.video {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.video-padding {
+  padding: 15px 0px;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.testimonial-block:hover {
+  background-color: #fff;
+}
+
+
+/* More Testimonial Section */
+
+#element2 {
+  opacity: 0;
+}
+
 .section-more-testimonials {
   background-color: #fff;
   padding-bottom: 100px;
@@ -103,10 +103,6 @@ button {text-decoration: none;}
   margin-right: auto;
   padding: 3em;
   transition: 1s;
-}
-
-.testimonial-block:hover {
-  background-color: #fff;
 }
 
 .testimonial-block-text {
@@ -127,20 +123,8 @@ button {text-decoration: none;}
   padding-top: 50px;
 }
 
-.video {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: block;
-}
 
-.video-padding {
-  padding: 15px 0px;
-
-}
-
-a:hover {
-  text-decoration: none;
-}
+/* Plugin Styles */
 
 .rslides {
   position: relative;
@@ -174,6 +158,8 @@ a:hover {
   border: 0;
   }
 
+
+/* Mobile Responsive */
 
 @media (min-width: 992px) {
   .desktop-carousel {
